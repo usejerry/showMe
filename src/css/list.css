@@ -1,0 +1,277 @@
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    /* max-height: 3600px; */
+    /* background-color: aqua */
+    position: relative;
+    
+}
+
+.clear::after{
+    content: '';
+    height: 0;
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+    clear: both;
+}
+
+.content .nav{
+    width: 100%;
+    margin-top: 30px;
+    height: 50px;
+    background-color: #f2f2f2; 
+}
+.content .nav p{
+    float: left;
+    width: 100px;
+    height: 50px;
+    /* background-color: #fafafa; */
+    text-align: center;
+    line-height: 50px;
+    box-sizing: border-box;
+    border-top: 2px solid #f2f2f2;
+    cursor: pointer;
+}
+.content .nav .active{
+    background-color: #fafafa;
+    border-top: 2px solid #f33;
+}
+
+.content .g_sort {
+    width: 1200px;
+    height: 50px;
+    background-color: #ededed;
+    border: 1px solid gainsboro;
+    margin-top: 10px;
+    
+}   
+
+.content .g_sort  p{
+    height: 50px;
+    padding:0 10px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+}
+.content .g_sort .click{
+    background-color: white;
+    border-right: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+    
+}
+.content .g_sort .click a{
+    color: red;
+}
+.content .g_sort  p a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 13px
+}
+
+.content #goodsList{
+    width: 1200px;
+    /* padding-left: 30px;
+    padding-right: 30px;      */
+    overflow: hidden;
+}
+.content #goodsList li{
+    width: 380px;
+    height: 452px;
+    float: left;
+    /* background-color: #ea6161; */
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    margin: 30px 10px 0;
+   
+}
+.content #goodsList li:hover {
+    border: 1px solid blue;
+}
+.content #goodsList li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.content #goodsList li a .img_box{
+    width: 100%;
+    height:300px;
+    position: relative;
+ }
+ .content #goodsList li a .img_box img{
+    display: block;
+    width: 300px;
+    height:280px ;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%)
+ }
+ .content #goodsList li a .title{
+     width: 90%;
+     padding-left: 20px;
+     font-size: 13px;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     overflow: hidden;
+
+ }
+
+ .content #goodsList li a .title_m{
+    width: 100%;
+    padding-left: 20px;
+    font-size: 12px;
+    color: gainsboro;
+    box-sizing: border-box;
+}
+.content #goodsList li a h4{
+    width: 100%;
+    padding-left: 10px;
+    height: 50px;
+    /* background-color: #ededed; */
+    box-sizing: border-box;
+    /* border-bottom: 1px solid gainsboro; */
+    
+}
+.content #goodsList li a h4 span{
+    display: inline-block;
+    margin-top: 8px;
+}
+.content #goodsList li a h4 span:nth-child(1){
+    color: #ea6161;
+}
+.content #goodsList li a h4 span:nth-child(2){
+    color: gainsboro;
+    text-decoration:line-through;
+    font-size: 14px
+}
+.content #goodsList li a h4 span:nth-child(3){
+   display: inline-block;
+   height: 20px;
+   border: 1px solid red;
+   font-size: 13px;
+   line-height: 20px;
+   text-align: center;
+   padding: 2px;
+}
+.content #goodsList li a h4 p{
+  width: 80px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  float: right;
+  margin-right: 10px;
+  border-radius: 4px
+}
+.content #goodsList li a h3{
+    width: 90%;
+    height: 30px;
+    border-top: 1px solid gainsboro;
+    margin: 10px auto;
+    padding-left: 20px;
+    box-sizing: border-box;
+    line-height: 30px;
+    background: url("../img/showTime.png") no-repeat center left
+}
+
+ 
+.bottom {
+    width: 100%;
+    border: 1px solid gainsboro;
+    /* overflow: hidden; */
+    /* display: none; */
+    margin-top: 70px;
+}
+
+.bottom .bot_1{
+    width: 1200px;
+    height: 150px;
+    margin: 10px auto 0 ;
+}
+.bottom .bot_1 ul{
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+    overflow: hidden;
+}
+.bottom .bot_1 ul li{
+    width: 100%;
+    height: 20px;
+    float: left;
+    line-height: 20px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: grey 
+}
+.bottom .bot_1 ul li a{
+    font-size: 13px;
+    color: grey 
+}
+.bottom .bot_1 ul li a:hover{
+    color: #ea6161;
+    text-decoration: underline;
+}
+.bottom .bot_1 ul li:nth-child(1){
+    font-size: 15px;
+    color: black;
+}
+
+.bottom .bot_1 ul .xinlan span{
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    background:  url("../img/bg.png") no-repeat ;
+    background-position:-7px -92px
+}
+.bottom .bot_2 {
+    width: 100%;
+    height: 150px;
+    background-color: #2d2d2d;
+}
+.bottom .bot_2 .bot_box{
+    width: 1200px;
+    height: 100px;
+    margin:10px auto;
+    /* margin-top: 20px; */
+    /* background-color: #ea6161; */
+}
+.bottom .bot_2 .bot_box ul{
+    height: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.bottom .bot_2 .bot_box ul:nth-child(2) li a{
+    color: gray;
+}
+.bottom .bot_2 .bot_box ul li{
+    height: 20px;
+    float: left;
+    
+    font-size: 13px;
+    padding: 0 8px ;
+    border-right: 1px solid gray;
+}
+.bottom .bot_2 .bot_box ul li a:hover{
+    text-decoration: underline;
+}
+.bottom .bot_2 .bot_box p a:hover{
+    text-decoration: underline;
+}
+.bottom .bot_2 .bot_box ul li a{
+    color: #fff;
+}
+.bottom .bot_2 .bot_box ul .none{
+    border:none ;
+}
+.bottom .bot_2 .bot_box p{
+    margin-top: 10px;
+    color: gray;
+}
+.bottom .bot_2 .bot_box p a{
+    color: gray;
+}

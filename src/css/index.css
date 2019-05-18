@@ -1,0 +1,533 @@
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    /* max-height: 3600px; */
+    /* background-color: aqua */
+}
+.content .banner .left ul .active{
+    z-index: 1;
+    opacity: 1;
+}
+ .active2{
+     background-color: red;
+ }
+.content .banner {
+    width: 100%;
+    height: 300px;
+}
+.content .banner .left{
+    width: 900px;
+    float: left;
+    height: 300px;
+    position: relative;
+}
+.content .banner .right{
+    width: 300px;
+    float: left;
+    height: 300px;
+}
+.content .banner .left ul{
+    width: 100%;    
+    height: 100%;
+    background-color: black;
+}
+.content .banner .left:hover p{
+    display: block;
+}
+.content .banner .left ul li{
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    top: 0;
+    left:0 ;
+    opacity: 0;
+    transition: all 0.6s linear
+}
+.content .banner .left ul li img{
+    width: 100%;
+    height: 100%;
+}
+.content .banner .left p{
+    width: 40px;
+    height: 50px;
+    /* background-color: gray; */
+    z-index: 3;
+    font-size: 30px;
+    color: gainsboro;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    /* opacity: 0; */
+    display: none;
+}
+.content .banner .left  #left{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%)
+}
+.content .banner .left #right{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%)
+}
+.content .banner .left h1{
+    height: 15px;  
+    overflow: hidden;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 300
+ }
+ .content .banner .left h1 span{
+     float: left;
+     display:inline-block;
+     width: 15px;
+     height: 15px;
+     border-radius: 10px;
+     margin:0 5px;
+     background-color: white;
+ }
+ .content .banner .left h1 span a{
+     display: block;
+     width: 100%;
+     height: 100%;
+     border-radius: 10px;
+ }
+.content .banner_bottom {
+    width: 100%;
+    height: 50px;
+    background: #fafafa
+}
+.content .banner_bottom li{
+    width: 20%;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    color: #ea6161;
+    /* background-position: 0px -334px  */
+}
+.content .banner_bottom li span{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    background:url("../img/ico.png") no-repeat;
+}
+.content .banner_bottom li:nth-child(1) span{
+    background-position: 0px -334px
+}
+.content .banner_bottom li:nth-child(2) span{
+    background-position: -51px -334px
+}
+.content .banner_bottom li:nth-child(3) span{
+    background-position: -101px -334px
+}
+.content .banner_bottom li:nth-child(4) span{
+    background-position: 0px -384px
+}
+.content .banner_bottom li:nth-child(5) span{
+    background-position: -50px -384px
+}
+.content .boutique{
+    width: 100%;
+}
+.content .boutique h4{
+    width: 100%;
+    height: 50px;
+    /* margin-top: 10px */
+    /* background-color: #ea6161; */
+}
+.content .boutique h4 span{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    float: left;
+   
+}
+.content .boutique h4 .boutique_nav{
+    font-size: 20px;
+    float: right;
+    width: 100px;
+    height: 50px;
+}
+.content .boutique h4 .boutique_nav p{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+}
+.content .boutique h4 .boutique_nav #boutique_prev{
+    float: left;
+    
+}
+.content .boutique h4 .boutique_nav #boutique_next{
+    float: right;
+}
+.content .boutique .goods_box{
+    width: 100%;
+    height: 363px;
+    overflow: hidden;
+    border: 1px solid gainsboro;
+    position: relative;
+    box-sizing: border-box;
+}
+.content .boutique .boutique_goods{
+   width: 1800px;
+   height: 363px; 
+   position: absolute;
+   top: 0;
+   /* right:0px; */
+}
+
+.content .boutique .boutique_goods li{
+    width: 300px;
+    float: left;
+    height: 363px;
+    padding: 5px;
+    border-right: 1px solid gainsboro;
+    box-sizing: border-box;
+}
+
+.content .boutique .boutique_goods li p:nth-child(1){
+    width: 250px;
+    height: 250px; 
+    margin: 0 auto;
+
+}
+.content .boutique .boutique_goods li p:nth-child(1) img{
+    width: 100%;
+    height: 100%;
+}
+.content .boutique .boutique_goods li p:nth-child(2){
+    width: 95%;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+margin-bottom: 5px;
+} 
+.content .boutique .boutique_goods li p:nth-child(3) span:nth-child(1){
+    color: #ea6161;
+    font-size: 20px;
+} 
+.content .boutique .boutique_goods li p:nth-child(3) span:nth-child(2){
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: line-through;
+    color: gainsboro;
+    font-size: 15px;
+} 
+.content .boutique .boutique_goods li h4{
+    width: 100%;
+}
+.content .boutique .boutique_goods li h4 .s_left{
+    width: 60%;
+    height: 60px;
+    float: left;
+    /* background-color: beige; */
+}
+.content .boutique .boutique_goods li h4 .s_left p{
+    height: 30px;
+    width: 100%;
+}
+.content .boutique .boutique_goods li h4 .s_left p:hover a,
+.content .boutique .boutique_goods li p:nth-child(2):hover a{
+    color: #ea6161;
+    text-decoration: underline;
+}
+.content .boutique .boutique_goods li h4 .s_but_buy{
+    width:60px;
+    height:45px ;
+    float: right;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    background-color: #ea6161;
+    border-radius: 4px;
+}
+
+.content .today_t{
+    width: 100%;
+}
+.content .today_t h4{
+    width: 1200px;
+    height: 50px;
+    font-size: 25px;
+    text-align: left;
+}
+.content .today_t .firm2{
+    
+    position: fixed ;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    z-index: 1000;
+}
+.content .today_t .today_nav{
+    width: 1200px;
+    height: 50px;
+    background-color: #ededed;
+    border: 1px solid gainsboro;
+    
+}
+.content .today_t .firm{
+    z-index: 10000;
+    position: fixed ;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.content .today_t .today_nav p{
+    height: 50px;
+    padding:0 10px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+}
+.content .today_t .today_nav  .click{
+    background-color: white;
+    border-right: 1px solid gainsboro;
+    border-left: 1px solid gainsboro;
+}
+.content .today_t .today_nav p a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 13px
+}
+.content .today_t #goodsList{
+    width: 1200px;
+    /* padding-left: 30px;
+    padding-right: 30px;      */
+    overflow: hidden;
+}
+.content .today_t #goodsList li{
+    width: 380px;
+    height: 452px;
+    float: left;
+    /* background-color: #ea6161; */
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+    margin: 30px 10px 0;
+   
+}
+.content .today_t #goodsList li:hover {
+    border: 1px solid blue;
+}
+.content .today_t #goodsList li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.content .today_t #goodsList li a .img_box{
+    width: 100%;
+    height:300px;
+    position: relative;
+ }
+ .content .today_t #goodsList li a .img_box img{
+    display: block;
+    width: 300px;
+    height:280px ;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%)
+ }
+ .content .today_t #goodsList li a .title{
+     width: 90%;
+     padding-left: 20px;
+     font-size: 13px;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     overflow: hidden;
+
+ }
+
+ .content .today_t #goodsList li a .title_m{
+    width: 100%;
+    padding-left: 20px;
+    font-size: 12px;
+    color: gainsboro;
+    box-sizing: border-box;
+}
+.content .today_t #goodsList li a h4{
+    width: 100%;
+    padding-left: 10px;
+    height: 50px;
+    /* background-color: #ededed; */
+    box-sizing: border-box;
+    /* border-bottom: 1px solid gainsboro; */
+    
+}
+.content .today_t #goodsList li a h4 span{
+    display: inline-block;
+    margin-top: 8px;
+}
+.content .today_t #goodsList li a h4 span:nth-child(1){
+    color: #ea6161;
+}
+.content .today_t #goodsList li a h4 span:nth-child(2){
+    color: gainsboro;
+    text-decoration:line-through;
+    font-size: 14px
+}
+.content .today_t #goodsList li a h4 span:nth-child(3){
+   display: inline-block;
+   height: 20px;
+   border: 1px solid red;
+   font-size: 13px;
+   line-height: 20px;
+   text-align: center;
+   padding: 2px;
+}
+.content .today_t #goodsList li a h4 p{
+  width: 80px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  float: right;
+  margin-right: 10px;
+  border-radius: 4px
+}
+.content .today_t #goodsList li a h3{
+    width: 90%;
+    height: 30px;
+    border-top: 1px solid gainsboro;
+    margin: 10px auto;
+    padding-left: 20px;
+    box-sizing: border-box;
+    line-height: 30px;
+    background: url("../img/showTime.png") no-repeat center left
+}
+
+.bottom {
+    width: 100%;
+    border: 1px solid gainsboro;
+    /* overflow: hidden; */
+    display: none;
+    margin-top: 70px;
+}
+.bottom .most{
+    width: 1200px;
+    height: 50px;
+    background: #fafafa;
+    margin: 0 auto;
+    transform: translateY(-70px);
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+.bottom .most a:hover{
+    color: #ea6161;
+    text-decoration: underline;
+}
+
+.bottom .bot_1{
+    width: 1200px;
+    height: 150px;
+    margin: 10px auto 0 ;
+}
+.bottom .bot_1 ul{
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+    overflow: hidden;
+}
+.bottom .bot_1 ul li{
+    width: 100%;
+    height: 20px;
+    float: left;
+    line-height: 20px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: grey 
+}
+.bottom .bot_1 ul li a{
+    font-size: 13px;
+    color: grey 
+}
+.bottom .bot_1 ul li a:hover{
+    color: #ea6161;
+    text-decoration: underline;
+}
+.bottom .bot_1 ul li:nth-child(1){
+    font-size: 15px;
+    color: black;
+}
+
+.bottom .bot_1 ul .xinlan span{
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    background:  url("../img/bg.png") no-repeat ;
+    background-position:-7px -92px
+}
+.bottom .bot_2 {
+    width: 100%;
+    height: 150px;
+    background-color: #2d2d2d;
+}
+.bottom .bot_2 .bot_box{
+    width: 1200px;
+    height: 100px;
+    margin:10px auto;
+    /* margin-top: 20px; */
+    /* background-color: #ea6161; */
+}
+.bottom .bot_2 .bot_box ul{
+    height: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.bottom .bot_2 .bot_box ul:nth-child(2) li a{
+    color: gray;
+}
+.bottom .bot_2 .bot_box ul li{
+    height: 20px;
+    float: left;
+    
+    font-size: 13px;
+    padding: 0 8px ;
+    border-right: 1px solid gray;
+}
+.bottom .bot_2 .bot_box ul li a:hover{
+    text-decoration: underline;
+}
+.bottom .bot_2 .bot_box p a:hover{
+    text-decoration: underline;
+}
+.bottom .bot_2 .bot_box ul li a{
+    color: #fff;
+}
+.bottom .bot_2 .bot_box ul .none{
+    border:none ;
+}
+.bottom .bot_2 .bot_box p{
+    margin-top: 10px;
+    color: gray;
+}
+.bottom .bot_2 .bot_box p a{
+    color: gray;
+}
+
+
+
+
+

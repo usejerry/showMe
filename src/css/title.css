@@ -1,0 +1,177 @@
+#title{
+    width: 1200px;
+    /* height: 500px; */
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+    /* overflow: hidden;     */
+}
+
+#title .t_box{
+    margin-top: 30px;
+    widows: 100%;
+    height: 150px;
+    /* background-color: aqua;    */
+}
+#title .t_box .t_logo{
+    float: left;
+}
+#title .t_box .t_logo a{ 
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#title .t_box .search{
+    float: left;
+    width: 600px;
+    height: 100px;
+    /* background-color: blue; */
+}
+#title .t_box .search h4 input:nth-child(1){
+    border: 1.5px solid #ec3639;
+    width: 500px;
+    height: 50px;
+    margin: 0;
+    box-sizing: border-box;
+    padding-left: 10px;
+    /* font-size: 15px   */
+}
+#title .t_box .search h4 input:nth-child(2){
+    width: 70px;
+    height: 50px;
+    /* border: 2px solid #ec3639; */
+    background-color: #ec3639;
+    margin-left: -5px;
+} 
+#title .t_box .search ul{
+    height: 20px;
+    margin: 5px 0;
+}
+#title .t_box .search ul li{
+    height: 20px;
+    float: left;
+    margin-right: 20px;
+    font-size: 13px; 
+}
+#title .t_box .search ul li a{
+    color: gray;
+}
+#title .t_box .search ul li a:hover{
+    text-decoration: underline;
+    color: #ec3639;
+       
+}
+#title .t_box .search p span{
+    display:inline-block;
+    /* width: 30px;
+    height: 30px; */
+    background-color: #ec3639;
+    margin-right: 5px;  
+    font-size: 13px;
+}
+#title .t_box .my{
+    float: right;
+    height: 50px;
+}
+#title .t_box .my ul{
+    height: 30px;
+    margin: 10px 0;
+}
+#title .t_box .my ul li{
+    float: left;
+    height: 40px;
+    font-size: 15px;
+    line-height: 30px;
+    /* width: 80px; */
+    margin-right: 10px;
+    /* background-color: aliceblue; */
+    text-align: right;
+    position: relative;
+}
+
+#title .t_box .my ul li:hover a i{
+    color: #ec3639;
+} 
+#title .t_box .my ul li:hover a{
+    color: #ec3639;
+
+} 
+#title .t_box .my ul li a i{
+    margin-right: 5px;
+   
+}
+#title .t_box .my ul li a span{
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 9px;
+    background-color: #ec3639;
+    color: white;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    line-height: 15px;
+    left: 9px;
+     
+}
+
+#title .t_nav{
+    width: 100%;
+    height:40px;
+    border-bottom: 2px solid #ec3639;
+    text-align: left;
+    position: relative; 
+}
+#title .t_nav .classify{
+    width: 170px;
+    height: 40px;
+    color: white;
+    background-color: #ec3639;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    cursor: pointer;
+}
+#title .t_nav .classify .nav_cl{
+    width: 170px;
+    position: absolute;
+    /* bottom: -40px;
+    left: 0px; */
+    /* height: ; */
+    display: none;
+    z-index: 1000;
+}
+#title .t_nav .classify .nav_cl li{
+    width: 170px;
+    height: 70px;
+    float: left;
+    background-color:#454545;
+    border-left: 2px solid #454545;
+    box-sizing: border-box;
+}
+#title .t_nav .classify .nav_cl li a{
+    display: block;
+    width: 100%;
+    color: white;
+    height: 100%;
+    text-align: center;
+    line-height: 70px
+}
+#title .t_nav .classify .nav_cl li a span{
+    display:inline-block ;
+    width: 7px;
+    height: 7px;
+    /* background-color: black; */
+    border: 2px solid;
+    margin-left: 30px;
+    border-color: transparent transparent #8d9095 #8d9095;
+    transform: rotate(225deg);
+}
+#title .t_nav p{
+    float: left;
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    color: #ec3639;
+    text-align: center;
+    line-height: 40px;
+}
